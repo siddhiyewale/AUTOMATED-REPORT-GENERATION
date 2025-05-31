@@ -72,6 +72,8 @@ Automated documentation for business or research
 
 *OUTPUT* : 
 
+![Image](https://github.com/user-attachments/assets/7f53a012-ce14-4d13-bd9d-8d802178f513)
+
 
 
 
