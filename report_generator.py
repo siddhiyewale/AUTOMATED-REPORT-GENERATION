@@ -62,11 +62,12 @@ def create_pdf_report(summary_data, file_name, original_data):
 
     # Draw table
     draw_table(pdf, summary_data, x_offset=55, y_offset=height - 80, title="")
-
+    #save the PDF
     pdf.save()
 
 # Main
 if __name__ == "__main__":
+    # File paths
     source_file = "data.csv"
     report_file = "generated_report.pdf"
 
@@ -76,4 +77,5 @@ if __name__ == "__main__":
         create_pdf_report(stats, report_file, dataset)
         print("Report generated at:", report_file)
     except Exception as err:
+        # If any errors
         print("Failed to generate report:", err)
